@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+    api:
+        build: .docker/dev
+        container_name: kanastra-api
+        working_dir: /var/www
+        volumes:
+            - ./:/var/www
+        networks:
+            - kanastra-network
+
+    nginx:
+        build: .docker/dev/nginx
+        container_name: kanastra-nginx
+        restart: always
+        tty: true
+        ports:
+            - "8000:80"
+        volumes:
+            - .:/var/www
+        networks:
+            - kanastra-network
+        depends_on:
+            - api
+
+    mysql:
+        build: .docker/dev/mysql
+        container_name: kanastra-mysql
+        restart: always
+        tty: true
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./.docker/dev/dbdata:/var/lib/mysql
+            - ./.docker/dev/mysql:/docker-entrypoint-initdb.d
+        environment:
+            - MYSQL_DATABASE=kanastra
+            - MYSQL_ROOT_PASSWORD=root
+        networks:
+            - kanastra-network
+
+    mailpit:
+        image: 'axllent/mailpit:latest'
+        ports:
+            - '1025:1025'
+            - '8025:8025'
+        networks:
+            - kanastra-network
+
+networks:
+    kanastra-network:
+        driver: bridge

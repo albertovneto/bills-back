@@ -1,0 +1,116 @@
+2024-02-11 13:43:37,268 INFO supervisord started with pid 8
+2024-02-11 13:44:34,471 INFO supervisord started with pid 8
+2024-02-11 13:48:21,594 INFO supervisord started with pid 8
+2024-02-11 13:48:22,597 INFO spawned: 'php-fpm' with pid 9
+2024-02-11 13:48:23,647 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 11:59:46,468 INFO supervisord started with pid 8
+2024-02-12 11:59:47,477 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 11:59:48,604 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:08:26,086 INFO supervisord started with pid 7
+2024-02-12 19:08:27,089 INFO spawned: 'php-fpm' with pid 8
+2024-02-12 19:08:28,135 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:12:57,108 INFO supervisord started with pid 8
+2024-02-12 19:12:58,113 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 19:12:59,173 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:23:51,868 INFO supervisord started with pid 7
+2024-02-12 19:23:52,871 INFO spawned: 'php-fpm' with pid 8
+2024-02-12 19:23:53,921 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:24:37,090 INFO supervisord started with pid 7
+2024-02-12 19:24:38,096 INFO spawned: 'php-fpm' with pid 8
+2024-02-12 19:24:39,151 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:25:56,858 INFO supervisord started with pid 8
+2024-02-12 19:25:57,863 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 19:25:58,909 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:33:53,676 INFO supervisord started with pid 8
+2024-02-12 19:33:54,679 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 19:33:55,719 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:44:04,667 INFO supervisord started with pid 8
+2024-02-12 19:44:05,670 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 19:44:06,708 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 19:45:27,967 INFO supervisord started with pid 8
+2024-02-12 19:45:28,972 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 19:45:30,019 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:00:00,164 INFO supervisord started with pid 8
+2024-02-12 20:00:01,167 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 20:00:02,305 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:01:18,638 INFO supervisord started with pid 8
+2024-02-12 20:01:19,640 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 20:01:20,690 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:13:05,285 INFO supervisord started with pid 8
+2024-02-12 20:13:06,287 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 20:13:07,337 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:15:35,906 INFO supervisord started with pid 7
+2024-02-12 20:15:36,909 INFO spawned: 'php-fpm' with pid 8
+2024-02-12 20:15:37,959 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:21:43,972 INFO supervisord started with pid 8
+2024-02-12 20:21:44,975 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 20:21:46,009 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 20:28:56,832 INFO supervisord started with pid 8
+2024-02-12 21:16:05,221 INFO supervisord started with pid 8
+2024-02-12 21:16:06,224 INFO spawnerr: can't find command 'nginx'
+2024-02-12 21:16:06,226 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 21:16:07,261 INFO spawnerr: can't find command 'nginx'
+2024-02-12 21:16:07,262 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 21:16:09,266 INFO spawnerr: can't find command 'nginx'
+2024-02-12 21:16:12,270 INFO spawnerr: can't find command 'nginx'
+2024-02-12 21:16:12,271 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-02-12 21:25:39,317 INFO supervisord started with pid 8
+2024-02-12 21:25:40,319 INFO spawned: 'nginx' with pid 9
+2024-02-12 21:25:40,323 INFO spawned: 'php-fpm' with pid 10
+2024-02-12 21:25:40,328 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 21:25:41,359 INFO spawned: 'nginx' with pid 13
+2024-02-12 21:25:41,360 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 21:25:41,366 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 21:25:43,370 INFO spawned: 'nginx' with pid 14
+2024-02-12 21:25:43,378 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 21:25:46,384 INFO spawned: 'nginx' with pid 15
+2024-02-12 21:25:46,392 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 21:25:46,393 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-02-12 22:26:19,545 INFO supervisord started with pid 8
+2024-02-12 22:26:20,547 INFO spawned: 'nginx' with pid 9
+2024-02-12 22:26:20,550 INFO spawned: 'php-fpm' with pid 10
+2024-02-12 22:26:20,557 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 22:26:21,613 INFO spawned: 'nginx' with pid 13
+2024-02-12 22:26:21,614 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:26:21,620 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 22:26:23,623 INFO spawned: 'nginx' with pid 14
+2024-02-12 22:26:23,631 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 22:26:26,636 INFO spawned: 'nginx' with pid 15
+2024-02-12 22:26:26,644 WARN exited: nginx (exit status 1; not expected)
+2024-02-12 22:26:27,651 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-02-12 22:27:52,626 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-02-12 22:27:52,634 INFO supervisord started with pid 8
+2024-02-12 22:27:53,639 INFO spawned: 'nginx' with pid 9
+2024-02-12 22:27:53,641 INFO spawned: 'php-fpm' with pid 10
+2024-02-12 22:27:54,681 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:27:54,682 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:30:59,333 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-02-12 22:30:59,338 INFO supervisord started with pid 8
+2024-02-12 22:31:00,340 INFO spawned: 'nginx' with pid 9
+2024-02-12 22:31:00,343 INFO spawned: 'php-fpm' with pid 10
+2024-02-12 22:31:01,390 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:31:01,392 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:36:17,859 INFO supervisord started with pid 8
+2024-02-12 22:36:18,862 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 22:36:19,916 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:44:23,478 INFO supervisord started with pid 8
+2024-02-12 22:44:24,481 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 22:44:25,520 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 22:45:00,597 INFO supervisord started with pid 9
+2024-02-12 22:45:01,604 INFO spawned: 'php-fpm' with pid 10
+2024-02-12 22:45:02,647 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 23:36:37,329 INFO supervisord started with pid 7
+2024-02-12 23:36:38,332 INFO spawned: 'php-fpm' with pid 8
+2024-02-12 23:36:39,376 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 23:42:55,447 INFO supervisord started with pid 8
+2024-02-12 23:42:56,451 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 23:42:57,496 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 23:47:03,087 INFO supervisord started with pid 8
+2024-02-12 23:47:04,097 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 23:47:05,176 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-12 23:52:16,645 INFO supervisord started with pid 8
+2024-02-12 23:52:17,655 INFO spawned: 'php-fpm' with pid 9
+2024-02-12 23:52:18,730 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 12:47:37,411 INFO supervisord started with pid 8
+2024-02-13 12:47:38,414 INFO spawned: 'php-fpm' with pid 9
+2024-02-13 12:47:39,525 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
