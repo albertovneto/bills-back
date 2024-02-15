@@ -6,8 +6,7 @@
 - Copiar o arquivo .env.example para o .env
 - Dentro do container "kanastra-api" rodar o comando: ```php artisan key:generate```
 - Ainda dentro do container kanastra-api rodar as migrations: ```php artisan migrate```
-
-### A collection do postman com os endpoints encontra-se dentro da pasta postman.
+- Ainda dentro do container kanastra-api rodar a queue: ```php artisan queue work```
 
 ### Para executar os testes:
 ```docker exec kanastra-api bash -l -c "./vendor/bin/phpunit"```
